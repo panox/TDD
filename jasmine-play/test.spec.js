@@ -4,8 +4,7 @@ describe('Word', function() {
   var word = new Word("panos");
 
   it('reverse the word', function() {
-    word.reverse();
-    expect(word.name).toEqual('sonap');
+    expect(word.reverse()).toEqual('sonap');
   });
 
 });
